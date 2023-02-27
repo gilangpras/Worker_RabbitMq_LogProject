@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 const { Schema } = mongoose
 
-const LogProject = new Schema({
+const LogReopenProject = new Schema({
   projectId: {
     type: String
   },
@@ -26,4 +26,4 @@ const LogProject = new Schema({
   }
 })
 
-export default mongoose.model('log-project', LogProject)
+export default mongoose.model('log-reopen-project', LogReopenProject)
